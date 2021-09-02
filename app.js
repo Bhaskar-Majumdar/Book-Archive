@@ -2,6 +2,11 @@ const searchBtn = document.getElementById('search-btn');
 // Event handler and Load data
 searchBtn.addEventListener('click', function () {
     const search = document.getElementById('search-text');
+    //clear previous results
+    document.getElementById('search-result').textContent = '';
+    //clear previous total data
+    document.getElementById('data-found').textContent = '';
+
     const searchText = search.value;
     search.value = ' ';
     console.log(searchText);
