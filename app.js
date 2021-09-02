@@ -57,8 +57,4 @@ const displayData = datas => {
     });
 }
 
-// sppiner function
-sppiner = (property) => {
-    const sppiner = document.getElementById("sppiner");
-    sppiner.style.visibility = property;
-};
+
