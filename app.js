@@ -1,5 +1,5 @@
 const searchBtn = document.getElementById('search-btn');
-// Event handler
+// Event handler and Load data
 searchBtn.addEventListener('click', function () {
     const search = document.getElementById('search-text');
     const searchText = search.value;
@@ -57,4 +57,8 @@ const displayData = datas => {
     });
 }
 
-
+// sppiner function
+sppiner = (property) => {
+    const sppiner = document.getElementById("sppiner");
+    sppiner.style.visibility = property;
+};
